@@ -1,0 +1,141 @@
+* {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 40px 30px;
+    padding: 0;
+}
+
+/*============ START - HEADER ============*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 110px;
+    height: auto;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+}
+
+
+.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 1vw;
+}
+
+.header-nav li {
+    position: relative;
+    margin: 1vw 1.5vw;
+}
+
+.header-nav li .nav-link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 2px;
+    background-color: black;
+    width: 0%;
+    animation-name: underline-effect-reverse;
+    animation-duration: 300ms;
+    animation-direction: normal;
+}
+
+.header-nav li:hover .nav-link-underline::after {
+    width: 100%;
+    animation-name: underline-effect;
+    animation-duration: 300ms;
+    animation-direction: normal;
+}
+
+@keyframes underline-effect {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes underline-effect-reverse {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+        left: 100%;
+    }
+}
+
+.header-buttons { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header-lang-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: cnter;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.header-black-btn {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    transition: background-color 400ms ease-out;
+    padding: 0.85rem 2.5rem;
+    margin-left: 1vw;
+    border-radius: 2rem;
+}
+
+.header-black-btn:hover {
+    background-color: rgb(56, 56, 56);
+    transition: all 200ms ease-in;
+}
+
+/*============ END - HEADER ============*/
+
+/*============ START - SECTIONS ============*/
+
+
+/*============ END - SECTIONS ============*/
