@@ -5,9 +5,9 @@ function rotate180deg(element) {
 }
 
 function rotate180degHeaderLangArrow() {
-    let button = document.getElementById('header-lang-btn');
+    let button = document.getElementById('lang-btn');
     button.addEventListener('click',event => {
-        let arrow = document.getElementById('header-lang-arrow');
+        let arrow = document.getElementById('lang-btn-arrow');
         rotate180deg(arrow);
     });
 }

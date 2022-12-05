@@ -13,188 +13,235 @@
 
     <body class="body">
         <header class="header">
-            <img class="header-logo" src="./assets/img/logo-stationf.png" alt="Station F logo">
+            <img class="header-logo" src="./assets/img/header-logo/logo-stationf.png" alt="Station F logo">
             <div class="header-menu">
                 <nav class="header-nav">
-                    <ul class="header-nav-list">
+                    <ul class="nav-list">
                         <li>
-                            <a class="nav-link-underline" href="#">Start-up</a>
+                            <a class="nav-link" href="#">Start-up</a>
                         </li>
                         <li>
-                            <a class="nav-link-underline" href="#">programmes start-up</a>
+                            <a class="nav-link" href="#">programmes start-up</a>
                         </li>
                         <li>
-                            <a class="nav-link-underline" href="#">Servicers</a>
+                            <a class="nav-link" href="#">Servicers</a>
                         </li>
                         <li>
-                            <a class="nav-link-underline" href="#">Logements</a>
+                            <a class="nav-link" href="#">Logements</a>
                         </li>
                         <li>
-                            <a class="nav-link-underline" href="#">Événements</a>
+                            <a class="nav-link" href="#">Événements</a>
                         </li>
                         <li>
-                            <a class="nav-link-underline" href="#">Newsroom</a>
+                            <a class="nav-link" href="#">Newsroom</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="header-buttons">
-                    <a id="header-lang-btn" class="header-lang-btn" href="#">
-                        <span>FR</span>
-                        <img id="header-lang-arrow" class="rotate-180deg" src="./assets/img/arrow-down-s-line.svg">
+                    <a id="lang-btn" class="lang-btn" href="#">
+                        <span >Fr</span>
+                        <img id="lang-btn-arrow" class="rotate-180deg" src="./assets/img/arrows/arrow-down-s-line.svg">
                     </a>
-                    <a class="header-black-btn" href="#">Postuler</a>
+                    <a class="button button-black" href="#">Postuler</a>
                 </div>
             </div>
         </header>
 
         <main>
             <section class="section-home">
-                <h1>Plus grand campus de start-up du monde à Paris</h1>
-                <p>
-                    Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 
-                    30 programmes d'accompagnement et de nombreux services au coeur de Paris.
-                </p>
-                <a href="#">""""Arrow-to-down""""</a>
-                <img src="./assets/img/picture-home.jpg" alt="Picture of Station F premises">
-            </section>
-            <section class="section-program">
-                <h2>Donner le pouvoir à la prochaine génération d'entrepreneurs</h2>
-                <p>
-                    Avec des ressources disponibles sur le campus et en ligne - dont une large 
-                    communauté d'investisseurs, plus de 150 perks, 35 administrations publiques 
-                    et 600 événements par an - STATION F offre tout ce dont les entrepreneurs 
-                    ont besoin pour lancer et développer leurs projets.
-                </p>
-                <a href="#">Trouver mon programme</a>
-                <div class="logos">
-                    <img src="./assets/img/logo-hec.webp" alt="HEC logo">
-                    <img src="./assets/img/logo-microsoft.webp" alt="Microsoft logo">
-                    <img src="./assets/img/logo-founders.webp" alt="Founders Program logo">
-                    <img src="./assets/img/logo-edhec.webp" alt="EDHEC, business school logo">
-                    <img src="./assets/img/logo-ef.webp" alt="EF logo">
-                    <img src="./assets/img/logo-thales.webp" alt="THALES, Digital Factory logo">
+                <div class="section-home-text">
+                    <h1>Plus grand campus de start-up du monde à Paris</h1>
+                    <p>
+                        Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 
+                        30 programmes d'accompagnement et de nombreux services au coeur de Paris.
+                    </p>
+                    <a class="circle-btn" href="#section-program">
+                        <img src="./assets/img/arrows/arrow-down-s-line-white.svg" alt="arrow button to next section">
+                    </a>
+                </div>
+                <div class="section-home-picture">
+                    <img src="./assets/img/home/home-stationf.jpg" alt="Picture of Station F premises">
                 </div>
             </section>
-            <section class="section-launch">
-                <img src="./assets/img/launch-stationf.webp" alt="Screenshot of 'Launch by Station F'">
-                <h2>Launch by STATION F</h2>
-                <p>
-                    Vous avez une idée ? Vous souhaitez lancer votre start-up ou en apprendre 
-                    plus sur l'entrepreneuriat ? Launch by STATION F est le programme 100% en
-                    ligne de STATION F sur tous les sujets pour se lancer ! Le programme
-                    regroupe de nombreux cours en vidéo, une large librairie d'outils avec
-                    des accès à prix réduit et une communauté pour vous aider avec votre idée.
-                </p>
-                <a href="#">Découvrir</a>
+
+            <section id="section-program" class="section-program">
+                <div class="section-program-text">
+                    <h2>Donner le pouvoir à la prochaine génération d'entrepreneurs</h2>
+                    <p>
+                        Avec des ressources disponibles sur le campus et en ligne - dont une large 
+                        communauté d'investisseurs, plus de 150 perks, 35 administrations publiques 
+                        et 600 événements par an - STATION F offre tout ce dont les entrepreneurs 
+                        ont besoin pour lancer et développer leurs projets.
+                    </p>
+                    <a class="button button-orange" href="#">Trouver mon programme</a>
+                </div>
+                <div class="section-program-logos">
+                    <div class="program-logo">
+                        <img src="./assets/img/program/logo-hec.webp" alt="HEC logo">
+                    </div>
+                    <div class="program-logo">
+                        <img class="program-logo-larger" src="./assets/img/program/logo-microsoft.webp" alt="Microsoft logo">
+                    </div>
+                    <div class="program-logo">
+                        <img src="./assets/img/program/logo-founders.webp" alt="Founders Program logo">
+                    </div>
+                    <div class="program-logo">
+                        <img class="program-logo-larger" src="./assets/img/program/logo-edhec.webp" alt="EDHEC, business school logo">
+                    </div>
+                    <div class="program-logo">
+                        <img src="./assets/img/program/logo-ef.webp" alt="EF logo">
+                    </div>
+                    <div class="program-logo">
+                        <img src="./assets/img/program/logo-thales.webp" alt="THALES, Digital Factory logo">
+                    </div>
+                </div>
             </section>
-            <section class="section-entrepreneurs-startup">
+
+            <section class="section-launch">
+                <div class="section-launch-content">
+                    <img class="section-launch-picture" src="./assets/img/launch/launch-stationf.webp" alt="Screenshot of 'Launch by Station F'">
+                    <div class="section-launch-text">
+                        <h2>Launch by STATION F</h2>
+                        <p>
+                            Vous avez une idée ? Vous souhaitez lancer votre start-up ou en apprendre 
+                            plus sur l'entrepreneuriat ? Launch by STATION F est le programme 100% en
+                            ligne de STATION F sur tous les sujets pour se lancer ! Le programme
+                            regroupe de nombreux cours en vidéo, une large librairie d'outils avec
+                            des accès à prix réduit et une communauté pour vous aider avec votre idée.
+                        </p>
+                        <a class="button button-black" href="#">Découvrir</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-contractors">
                 <h2>Entrepreneurs &amp; Start-up</h2>
-                <div class="entrepreneurs-startup">
+                <div class="section-contractors-figures">
                     <figure>
-                        <img src="./assets/img/entrepreneurs-startup-1.jpeg" alt="Emma Butler, Founder & CEO of Intimately">
-                        <figcaption>Emma Butler, Founder &amp; CEO of Intimately</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="./assets/img/entrepreneurs-startup-2.jpeg" alt="Andy Cleraux, co-founder of Fibrany">
+                        <img src="./assets/img/contractors/contractors-startup-1.jpeg" alt="Andy Cleraux, co-founder of Fibrany">
                         <figcaption>Andy Cleraux, co-founder of Fibrany</figcaption>
                     </figure>
                     <figure>
-                        <img src="./assets/img/entrepreneurs-startup-3.png" alt="Ying Shao, Co-Founder & CEO of Plantik Biosciences">
+                        <img src="./assets/img/contractors/contractors-startup-2.jpeg" alt="Meet Ictyos, the startup transforming fish skin into leather">
+                        <figcaption>Meet Ictyos, the startup transforming fish skin into leather</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/img/contractors/contractors-startup-3.png" alt="Ying Shao, Co-Founder & CEO of Plantik Biosciences">
                         <figcaption>Ying Shao, Co-Founder &amp; CEO of Plantik Biosciences</figcaption>
                     </figure>
                     <figure>
-                        <img src="./assets/img/entrepreneurs-startup-4.png" alt="Meet Ictyos, the startup transforming fish skin into leather">
-                        <figcaption>Meet Ictyos, the startup transforming fish skin into leather</figcaption>
+                        <img src="./assets/img/contractors/contractors-startup-4.png" alt="Emma Butler, Founder &amp; CEO of Intimately">
+                        <figcaption>Emma Butler, Founder &amp; CEO of Intimately</figcaption>
                     </figure>
                 </div>
             </section>
+
             <section class="section-news">
-                <h2>Dernières actualités</h2>
-                <a href="#">Voir plus</a>
-                <figure>
-                    <img src="./assets/img/actus-founders-program.png" alt="Founders Program 2.0">
-                    <figcaption>
-                        STATION F is seeking impact only startups for the second batch
-                        of Founders Program 2.0
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/actus-future-40.png" alt="STATION F unveils Future 40 2022">
-                    <figcaption>
-                        STATION F unveils Future 40 2022, highlighting its most
-                        promising companies
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/actus-future-40-logo.png" alt="STATION F to unveil Future 40 2022 on November 23">
-                    <figcaption>
-                        STATION F to unveil Future 40 2022 on November 23
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/actus-fighters-program.png" alt="Fighters Program">
-                    <figcaption>
-                        From Fighters Program to Future 40 and a €3M fundraising,
-                        the incredible journey of OneFlash
-                    </figcaption>
-                </figure>
+                <div class="section-news-top">
+                    <h2>Dernières actualités</h2>
+                    <div>
+                        <a class="button button-orange" href="#">Voir plus</a>
+                    </div>   
+                </div>
+                <div class="section-news-figures">
+                    <figure class="news-figure-larger">
+                        <img src="./assets/img/news/news-founders-program.png" alt="Founders Program 2.0">
+                        <figcaption>
+                            STATION F is seeking impact only startups for the second batch
+                            of Founders Program 2.0
+                        </figcaption>
+                    </figure>
+                    <figure class="news-figure-large">
+                        <img src="./assets/img/news/news-future-40.png" alt="STATION F unveils Future 40 2022">
+                        <figcaption>
+                            STATION F unveils Future 40 2022, highlighting its most
+                            promising companies
+                        </figcaption>
+                    </figure>
+                    <figure class="news-figure-medium-first">
+                        <img src="./assets/img/news/news-future-40-logo.png" alt="STATION F to unveil Future 40 2022 on November 23">
+                        <figcaption>
+                            STATION F to unveil Future 40 2022 on November 23
+                        </figcaption>
+                    </figure>
+                    <figure class="news-figure-medium-second">
+                        <img src="./assets/img/news/news-fighters-program.png" alt="Fighters Program">
+                        <figcaption>
+                            From Fighters Program to Future 40 and a €3M fundraising,
+                            the incredible journey of OneFlash
+                        </figcaption>
+                    </figure>
+                </div>
             </section>
 
             <section class="section-flatmates">
-                <h2>Logement</h2>
-                <p>
-                    Accéder à des logements abordables et flexibles est un véritable
-                    challenge pour les entrepreneurs, particulièrement lorsqu'ils
-                    viennent de l'étranger. Flatmates, l'extension de co-living de
-                    STATION F, est la meilleure solution pour trouver un logement
-                    à Paris, avec plus de 600 chambres pour les entrepreneurs.
-                </p>
-                <a href="#">Découvrir flatmates</a>
-                <img src="./assets/img/logement.webp" alt="Flatmates">
+                <div class="section-flatmates-text">
+                    <h2>Logement</h2>
+                    <p>
+                        Accéder à des logements abordables et flexibles est un véritable
+                        challenge pour les entrepreneurs, particulièrement lorsqu'ils
+                        viennent de l'étranger. Flatmates, l'extension de co-living de
+                        STATION F, est la meilleure solution pour trouver un logement
+                        à Paris, avec plus de 600 chambres pour les entrepreneurs.
+                    </p>
+                    <a class="button button-pink" href="#">Découvrir flatmates</a>
+                </div>
+                <img src="./assets/img/flatmates/flatmates.webp" alt="Flatmates">
             </section>
 
             <section class="section-events">
-                <h2>Événements</h2>
-                <figure>
-                    <img src="./assets/img/evenements-elastic-paris-meetup.png" alt="Elastic paris meetup event">
-                    <figcaption>
-                        Tue. Nov 29 2022, 19:00 PM - 21:00 PM
-                        Elastic Paris Meetup #81 : Sémantique, vecteurs et NLP
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/evenements-google-cloud.png" alt="Google cloud event">
-                    <figcaption>
-                        Wed. Nov 30 2022, 9:30 AM - 11:30 AM
-                        Google Cloud &amp; Firebase - Technical Office Hours
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/evenements-shine.png" alt="Shine event">
-                    <figcaption>
-                        Wed. Nov 30 2022, 11:00 AM - 12:00 PM
-                        L'acquisition payante comme levier de croissance !
-                    </figcaption>
-                </figure>
+                <div class="section-events-top">
+                    <h2>Événements</h2>
+                    <div>
+                        <a class="button button-orange" href="#">Voir plus</a>
+                    </div> 
+                </div>
+                <div class="section-events-figures">
+                    <figure>
+                        <img src="./assets/img/events/events-elastic-paris-meetup.png" alt="Elastic paris meetup event">
+                        <figcaption>
+                            <span class="figure-date">Tue. Nov 29 2022, 19:00 PM - 21:00 PM</span>
+                            <br>
+                            Elastic Paris Meetup #81 : Sémantique, vecteurs et NLP
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/img/events/events-google-cloud.png" alt="Google cloud event">
+                        <figcaption>
+                            <span class="figure-date">Wed. Nov 30 2022, 9:30 AM - 11:30 AM</span><br>
+                            Google Cloud &amp; Firebase - Technical Office Hours
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/img/events/events-shine.png" alt="Shine event">
+                        <figcaption>
+                            <span class="figure-date">Wed. Nov 30 2022, 11:00 AM - 12:00 PM</span>
+                            <br>
+                            L'acquisition payante comme levier de croissance !
+                        </figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
 
-        <footer>
-            <div>
-                <div>
-                    <div>
-                        <h2>Newsletter</h2>
+        <footer class="footer">
+            <div class="footer-banner">
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <form class="form-newsletter" action="">
                         <input type="text" name="newsletter-email-adress" id="newsletter-email-adress" placeholder="Adresse email">
-                        <button type="submit">"""""Arrow-to-left"""""</button>
-                    </div>
-                    <div>
+                        <button class="circle-btn circle-btn-white" type="submit"><img src="./assets/img/arrows/arrow-right-line.svg" alt=""></button>
+                    </form>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-values">
                         <h3>Nos valeurs</h3>
                         <ul>
                             <li><a href="#">Diversité</a></li>
                             <li><a href="#">Communauté</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="footer-actions">
                         <h3>Initiatives</h3>
                         <ul>
                             <li><a href="#">Future 40</a></li>
@@ -202,31 +249,37 @@
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <p>Station F est situé au 5, Parvis Alan Turing, 75013 Paris.</p>
+                <p class="footer-adress">Station F est situé au 5, Parvis Alan Turing, 75013 Paris.</p>
+                <nav class="footer-nav">
                     <ul>
-                        <li><a href="#"></a>Équipe</li>
-                        <li><a href="#"></a>Newsroom</li>
-                        <li><a href="#"></a>Contact</li>
-                        <li><a href="#"></a>Terms</li>
-                        <li><a href="#"></a>Jobs</li>
+                        <li>
+                            <a href="#">Équipe</a>
+                        </li>
+                        <li>
+                            <a href="#">Newsroom</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">Jobs</a>
+                        </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-
-            <div>
-                <div>
-                    <a href="#">"""""Arrow-to-the-top"""""</a>
+            <div class="footer-socials">
+                <a class="circle-btn circle-btn-white" href="#"><img src="./assets/img/arrows/arrow-up-s-line.svg"></a>
+                <div class="socials">
+                    <a href="#"><img src="./assets/img/socials/linkedin-fill.svg" alt="Linkedin logo"></a>
+                    <a href="#"><img src="./assets/img/socials/instagram-line.svg" alt="Instagram logo"></a>
+                    <a href="#"><img src="./assets/img/socials/twitter-fill.svg" alt="Twitter logo"></a>
+                    <a href="#"><img src="./assets/img/socials/youtube-fill.svg" alt="Youtube logo"></a>
+                    <a href="#"><img src="./assets/img/socials/facebook-fill.svg" alt="Facebook logo"></a>
+                    <a href="#"><img src="./assets/img/socials/broadcast-fill.svg" alt="Podcast logo"></a>
                 </div>
-                <div>
-                    <a href="#">Linkedin-logo</a>
-                    <a href="#">Instagram-logo</a>
-                    <a href="#">Twitter-logo</a>
-                    <a href="#">Youtube-logo</a>
-                    <a href="#">Facebook-logo</a>
-                    <a href="#">Podcast-logo</a>
-                </div>
-                
             </div>
         </footer>
         <script src="./assets/script/script.js"></script>
