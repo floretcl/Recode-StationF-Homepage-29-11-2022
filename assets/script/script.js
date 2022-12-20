@@ -1,17 +1,20 @@
 // ============ Functions ============ //
 
-function rotate180deg(element) {
+const rotate180deg = (element) => {
     element.className = element.className === 'rotate-180deg' ? 'rotate-180deg-hover' : 'rotate-180deg';
 }
 
-function rotate180degHeaderLangArrow() {
-    let button = document.getElementById('lang-btn');
-    button.addEventListener('click',event => {
+const animateHeaderLangArrow = () => {
+    let langButton = document.getElementById('lang-btn');
+    let langMenu = document.getElementById('lang-menu');
+    langButton.addEventListener('click', () => {
         let arrow = document.getElementById('lang-btn-arrow');
         rotate180deg(arrow);
+        langMenu.className = langMenu.className === 'lang-menu-hidden' ? 'lang-menu' : 'lang-menu-hidden';
     });
+    
 }
 
 // ============ Main ============ //
 
-rotate180degHeaderLangArrow();
+animateHeaderLangArrow();
