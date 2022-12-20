@@ -167,7 +167,6 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: center;
     margin: 2.5rem 3rem;
 }
@@ -181,6 +180,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
     font-size: 0.75rem;
@@ -190,24 +190,16 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-end;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+    max-width: 650px;
     border-right: 1px solid lightgrey;
 }
 
-
-.nav-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    justify-content: space-between;
-    margin: 0 1.2rem;
-}
-
-.nav-list li {
+.header-nav div {
     position: relative;
-    margin: 1rem 1rem;
+    margin: 1rem 0.25rem;
 }
 
 .nav-link {
@@ -215,7 +207,7 @@ section {
     white-space: nowrap;
 }
 
-.nav-list li .nav-link::after {
+.header-nav div .nav-link::after {
     content: "";
     position: absolute;
     left: 0;
@@ -227,7 +219,7 @@ section {
     animation-duration: 200ms;
 }
 
-.nav-list li:hover .nav-link::after {
+.header-nav div:hover .nav-link::after {
     width: 100%;
     animation-name: underline-effect;
     animation-duration: 200ms;
