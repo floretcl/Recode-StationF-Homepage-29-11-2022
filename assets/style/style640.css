@@ -79,7 +79,7 @@
         position: absolute;
         bottom: 10%;
         left: 65%;
-        width: 35%;
+        width: 40%;
         overflow: hidden;
         z-index: 2;
     }
@@ -172,7 +172,7 @@
 
 /*---------------------------*/
 
-@media all and (640px < width < 1024px) {
+@media all and (640px <= width < 1024px) {
     .section-launch-content {
         display: flex;
         flex-direction: row;
@@ -352,7 +352,7 @@
             "address nav";
         row-gap: 4rem;
         column-gap: 8vw;
-        padding-top: 3rem;
+        padding-top: 5rem;
         padding-bottom: 1.2rem;
         margin-top: 2rem;
         color: white;
