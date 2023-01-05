@@ -5,66 +5,75 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/style/style.css">
+        <link rel="stylesheet" href="./assets/style/style640.css">
+        <link rel="stylesheet" href="./assets/style/style1024.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-        <title>Recode STATION F - World's biggest startup campus</title>
+        <title>Recode STATION F - World's biggest startup campus</title>
     </head>
 
     <body class="body">
-        <header class="header">
-            <img class="header-logo" src="./assets/img/header-logo/logo-stationf.png" alt="Station F logo">
-            <div class="header-menu">
-                <nav class="header-nav">
-                    <div>
-                        <a class="nav-link" href="#">Start-up</a>
-                    </div>
-                    <div>
-                        <a class="nav-link" href="#">Programmes start-up</a>
-                    </div>
-                    <div>
-                        <a class="nav-link" href="#">Services</a>
-                    </div>
-                    <div>
-                        <a class="nav-link" href="#">Logements</a>
-                    </div>
-                    <div>
-                        <a class="nav-link" href="#">Événements</a>
-                    </div>
-                    <div>
-                        <a class="nav-link" href="#">Newsroom</a>
-                    </div>
-                </nav>
-                <div class="header-buttons">
-                    <a id="lang-btn" class="lang-btn" href="#">
-                        <span >Fr</span>
-                        <img id="lang-btn-arrow" class="rotate-180deg" src="./assets/img/arrows/arrow-down-s-line.svg">
+        <header id="header" class="header flow-p">
+            <div id="header-content" class="header-content">
+                <div class="header-top">
+                    <img id="header-logo" class="header-logo" src="./assets/img/header-logo/logo-stationf.png" alt="STATION F logo">
+                    <a id="header-menu-icon" class="header-menu-icon" href="#">
+                        <img id="header-menu-img" src="./assets/img/menu/menu-line.png" alt="menu icon">
                     </a>
-                    <div class="lang-menu-hidden" id="lang-menu">
-                        <ul class="lang-list">
-                            <li>En</li>
-                            <li>Fr</li>
-                        </ul>
+                </div>
+                <div class="header-menu">
+                    <nav id="header-nav" class="header-nav">
+                        <div>
+                            <a class="nav-link" href="#">Start-up</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#">Programmes start-up</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#">Services</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#">Logements</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#">Événements</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="#">Newsroom</a>
+                        </div>
+                    </nav>
+                    <div id="header-buttons" class="header-buttons">
+                        <a id="lang-btn" class="lang-btn" href="#">
+                            <span >Fr</span>
+                            <img id="lang-btn-arrow" class="lang-btn-arrow-active rotate-180deg" src="./assets/img/arrows/arrow-down-s-line.svg">
+                        </a>
+                        <div class="lang-menu-hidden" id="lang-menu">
+                            <ul class="lang-list">
+                                <li>En</li>
+                                <li>Fr</li>
+                            </ul>
+                        </div>
+                        <a id="header-btn-subscribe" class="button button-black" href="#">Postuler</a>
                     </div>
-                    <a class="button button-black" href="#">Postuler</a>
                 </div>
             </div>
         </header>
 
-        <main>
-            <section class="section-home">
+        <main class="main">
+            <section class="section-home flow-m">
                 <div class="section-home-text">
                     <h1>Plus grand campus de start-up du monde à Paris</h1>
                     <p>
                         Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 
                         30 programmes d'accompagnement et de nombreux services au coeur de Paris.
                     </p>
-                    <a class="circle-btn button-black" href="#section-program">
+                    <a class="circle-btn button-black circle-btn-home" href="#section-program">
                         <img src="./assets/img/arrows/arrow-down-s-line-white.svg" alt="arrow button to next section">
                     </a>
                 </div>
                 <div class="section-home-illustration">
-                    <img class="home-picture-illustration" src="./assets/img/home/home-stationf.jpg" alt="Picture of Station F premises">
+                    <img class="home-picture-illustration" src="./assets/img/home/home-stationf.jpg" alt="Picture of STATION F premises">
                     <div class="home-gradient-illustration"></div>
                     <div class="home-dots-illustration">
                         <div class="home-dots-row">
@@ -162,16 +171,16 @@
                 </div>
             </section>
 
-            <section id="section-program" class="section-program">
+            <section id="section-program" class="section-program flow-p">
                 <div class="section-program-text">
                     <h2>Donner le pouvoir à la prochaine génération d'entrepreneurs</h2>
                     <p>
                         Avec des ressources disponibles sur le campus et en ligne - dont une large 
                         communauté d'investisseurs, plus de 150 perks, 35 administrations publiques 
-                        et 600 événements par an - STATION F offre tout ce dont les entrepreneurs 
+                        et 600 événements par an - STATION F offre tout ce dont les entrepreneurs 
                         ont besoin pour lancer et développer leurs projets.
                     </p>
-                    <a class="button button-orange" href="#">Trouver mon programme</a>
+                    <a class="button button-orange btn-section-program" href="#">Trouver mon programme</a>
                 </div>
                 <div class="section-program-logos">
                     <div class="program-logo">
@@ -195,15 +204,15 @@
                 </div>
             </section>
 
-            <section class="section-launch">
+            <section class="section-launch flow-p">
                 <div class="section-launch-content">
-                    <img class="section-launch-picture" src="./assets/img/launch/launch-stationf.webp" alt="Screenshot of 'Launch by Station F'">
+                    <img class="section-launch-picture" src="./assets/img/launch/launch-stationf.webp" alt="Screenshot of 'Launch by STATION F'">
                     <div class="section-launch-text">
-                        <h2>Launch by STATION F</h2>
+                        <h2>Launch by STATION F</h2>
                         <p>
                             Vous avez une idée ? Vous souhaitez lancer votre start-up ou en apprendre 
-                            plus sur l'entrepreneuriat ? Launch by STATION F est le programme 100% en
-                            ligne de STATION F sur tous les sujets pour se lancer ! Le programme
+                            plus sur l'entrepreneuriat ? Launch by STATION F est le programme 100% en
+                            ligne de STATION F sur tous les sujets pour se lancer ! Le programme
                             regroupe de nombreux cours en vidéo, une large librairie d'outils avec
                             des accès à prix réduit et une communauté pour vous aider avec votre idée.
                         </p>
@@ -212,7 +221,7 @@
                 </div>
             </section>
 
-            <section class="section-contractors">
+            <section class="section-contractors flow-m">
                 <h2>Entrepreneurs &amp; Start-up</h2>
                 <div class="section-contractors-figures">
                     <figure>
@@ -234,7 +243,7 @@
                 </div>
             </section>
 
-            <section class="section-news">
+            <section class="section-news flow-p">
                 <div class="section-news-illustration"></div>
                 <div class="section-news-top">
                     <h2>Dernières actualités</h2>
@@ -249,29 +258,29 @@
                         </div>
                         <figcaption>
                             <p>
-                                STATION F is seeking impact only startups for the second batch
+                                STATION F is seeking impact only startups for the second batch
                                 of Founders Program 2.0
                             </p>
                         </figcaption>
                     </figure>
                     <figure class="news-figure-large">
                         <div class="news-img">
-                            <img src="./assets/img/news/news-future-40.png" alt="STATION F unveils Future 40 2022">
+                            <img src="./assets/img/news/news-future-40.png" alt="STATION F unveils Future 40 2022">
                         </div>
                         <figcaption>
                             <p>
-                                STATION F unveils Future 40 2022, highlighting its most
+                                STATION F unveils Future 40 2022, highlighting its most
                                 promising companies
                             </p>
                         </figcaption>
                     </figure>
                     <figure class="news-figure-medium-first">
                         <div class="news-img">
-                            <img src="./assets/img/news/news-future-40-logo.png" alt="STATION F to unveil Future 40 2022 on November 23">
+                            <img src="./assets/img/news/news-future-40-logo.png" alt="STATION F to unveil Future 40 2022 on November 23">
                         </div>
                         <figcaption>
                             <p>
-                                STATION F to unveil Future 40 2022 on November 23
+                                STATION F to unveil Future 40 2022 on November 23
                             </p>
                         </figcaption>
                     </figure>
@@ -289,14 +298,14 @@
                 </div>
             </section>
 
-            <section class="section-flatmates">
+            <section class="section-flatmates flow-p">
                 <div class="section-flatmates-text">
                     <h2>Logement</h2>
                     <p>
                         Accéder à des logements abordables et flexibles est un véritable
                         challenge pour les entrepreneurs, particulièrement lorsqu'ils
                         viennent de l'étranger. Flatmates, l'extension de co-living de
-                        STATION F, est la meilleure solution pour trouver un logement
+                        STATION F, est la meilleure solution pour trouver un logement
                         à Paris, avec plus de 600 chambres pour les entrepreneurs.
                     </p>
                     <a class="button button-pink" href="#">Découvrir flatmates</a>
@@ -410,29 +419,11 @@
                         <img src="./assets/img/illustrations/circle-fill.svg">
                         <img src="./assets/img/illustrations/circle-fill.svg">
                     </div>
-                    <div class="flatmates-dots-row">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                    </div>
-                    <div class="flatmates-dots-row">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                        <img src="./assets/img/illustrations/circle-fill.svg">
-                    </div>
                 </div>
-                <img src="./assets/img/flatmates/flatmates.webp" alt="Flatmates">
+                <img class="section-flatmates-img" src="./assets/img/flatmates/flatmates.webp" alt="Flatmates">
             </section>
 
-            <section class="section-events">
+            <section class="section-events flow-m">
                 <div class="section-events-top">
                     <h2>Événements</h2>
                     <div>
@@ -473,61 +464,63 @@
             </section>
         </main>
 
-        <footer class="footer">
-            <div class="footer-banner">
-                <div class="footer-newsletter">
-                    <h3>Newsletter</h3>
-                    <form class="form-newsletter" action="">
-                        <input class="newsletter-textfield" type="text" name="newsletter-email-adress" id="newsletter-email-adress" placeholder="Adresse email">
-                        <button class="circle-btn button-white" type="submit"><img src="./assets/img/arrows/arrow-right-line.svg" alt=""></button>
-                    </form>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-links-values">
-                        <h3>Nos valeurs</h3>
-                        <ul>
-                            <li><a href="#">Diversité</a></li>
-                            <li><a href="#">Communauté</a></li>
-                        </ul>
+        <footer class="footer footer-flow-m">
+            <div class="footer-content">
+                <div class="footer-banner footer-flow-p">
+                    <div class="footer-newsletter">
+                        <h3>Newsletter</h3>
+                        <form class="form-newsletter" action="">
+                            <input class="newsletter-textfield" type="text" name="newsletter-email-adress" id="newsletter-email-adress" placeholder="Adresse email">
+                            <button class="circle-btn button-white circle-btn-footer-newsletter" type="submit"><img src="./assets/img/arrows/arrow-right-line.svg" alt=""></button>
+                        </form>
                     </div>
-                    <div class="footer-links-actions">
-                        <h3>Initiatives</h3>
-                        <ul>
-                            <li><a href="#">Future 40</a></li>
-                            <li><a href="#">Étude de l'Écosystème</a></li>
-                        </ul>
+                    <div class="footer-links">
+                        <div class="footer-links-values">
+                            <h3>Nos valeurs</h3>
+                            <ul>
+                                <li><a href="#">Diversité</a></li>
+                                <li><a href="#">Communauté</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-links-actions">
+                            <h3>Initiatives</h3>
+                            <ul>
+                                <li><a href="#">Future 40</a></li>
+                                <li><a href="#">Étude de l'Écosystème</a></li>
+                            </ul>
+                        </div>
                     </div>
+                    <p class="footer-address">Station F est situé au 5, Parvis Alan Turing, 75013 Paris.</p>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="#">Équipe</a>
+                            </li>
+                            <li>
+                                <a href="#">Newsroom</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms</a>
+                            </li>
+                            <li>
+                                <a href="#">Jobs</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <p class="footer-address">Station F est situé au 5, Parvis Alan Turing, 75013 Paris.</p>
-                <nav class="footer-nav">
-                    <ul>
-                        <li>
-                            <a href="#">Équipe</a>
-                        </li>
-                        <li>
-                            <a href="#">Newsroom</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Jobs</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer-socials">
-                <a class="circle-btn button-white" href="#"><img src="./assets/img/arrows/arrow-up-s-line.svg"></a>
-                <div class="socials">
-                    <a href="#"><img src="./assets/img/socials/facebook-fill.svg" alt="Facebook logo"></a>
-                    <a href="#"><img src="./assets/img/socials/linkedin-fill.svg" alt="Linkedin logo"></a>
-                    <a href="#"><img src="./assets/img/socials/instagram-line.svg" alt="Instagram logo"></a>
-                    <a href="#"><img src="./assets/img/socials/twitter-fill.svg" alt="Twitter logo"></a>
-                    <a href="#"><img src="./assets/img/socials/youtube-fill.svg" alt="Youtube logo"></a>
-                    <a href="#"><img src="./assets/img/socials/broadcast-fill.svg" alt="Podcast logo"></a>
+                <div class="footer-socials">
+                    <a class="circle-btn button-white circle-btn-footer-socials" href="#"><img src="./assets/img/arrows/arrow-up-s-line.svg"></a>
+                    <div class="socials">
+                        <a href="#"><img src="./assets/img/socials/facebook-fill.svg" alt="Facebook logo"></a>
+                        <a href="#"><img src="./assets/img/socials/linkedin-fill.svg" alt="Linkedin logo"></a>
+                        <a href="#"><img src="./assets/img/socials/instagram-line.svg" alt="Instagram logo"></a>
+                        <a href="#"><img src="./assets/img/socials/twitter-fill.svg" alt="Twitter logo"></a>
+                        <a href="#"><img src="./assets/img/socials/youtube-fill.svg" alt="Youtube logo"></a>
+                        <a href="#"><img src="./assets/img/socials/broadcast-fill.svg" alt="Podcast logo"></a>
+                    </div>
                 </div>
             </div>
         </footer>
